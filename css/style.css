@@ -1,0 +1,79 @@
+{
+	margin:0 ;
+	padding:0;
+}
+body{
+	font-family:"roboto",sans-serif;
+	font-weight: 100;
+	background: #333;
+
+}
+.message{
+	color:#eee;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#wrapper{
+	margin:0 auto;
+	max-width:300px;
+	
+}
+.click{
+	display:block;
+	position:relative;
+	right:-80px;
+	margin-bottom: 50px;
+}
+
+h1{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 700;
+	color:white;
+	text-align: center;
+	margin:20% auto;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+input[type="text"]{
+	display:block;
+	width:280px;
+	height:30px;
+	background: #d4cdc6;
+}
+input[type="submit"]{
+	display:block;
+	width:100%;
+	max-width: 140px;
+	height:3.4rem;
+	line-height: 2.2;
+	margin-top:20px;
+	padding:0px 10px;
+	background:#bbeeff;
+
+}
+input[type="submit"]:hover{
+	background: #d5f4ff;
+	-webkit-transition:background all 0.5s ease-in-out;
+	-moz-transition:  background all 0.5s ease-in-out;
+	-ms-transition:  background all 0.5s ease-in-out;
+	-o-transition: background all 0.5s ease-in-out;
+	transition:   background all 0.5s ease-in-out;
+}
+input[type="text"]:hover{
+	background:#dddddd;
+	-webkit-transition:background all 0.5s ease-in-out;
+	-moz-transition:  background all 0.5s ease-in-out;
+	-ms-transition:  background all 0.5s ease-in-out;
+	-o-transition: background all 0.5s ease-in-out;
+	transition:   background all 0.5s ease-in-out;
+}
+::-webkit-input-placeholder{
+	color:white;
+}
+:-ms-input-placeholder{
+	color:white;
+}
+:-moz-input-placeholder{
+	color:white;
+	
+}
